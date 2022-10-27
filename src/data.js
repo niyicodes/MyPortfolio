@@ -1,13 +1,3 @@
-//  icons
-import {
- FiGithub,
- FiLayout,
- FiSettings,
- FiPenTool,
- FiTag,
- FiMail,
- FiMapPin,
-} from "react-icons/fi";
 
 // // projects images
 // import Project1 from './assets/projects/p1.webp';
@@ -43,61 +33,84 @@ export const navigation = [
   href: "services",
  },
  {
-  name: "testimonials",
-  href: "testimonials",
- },
- {
   name: "contact",
   href: "contact",
  },
 ];
 
-// social
-export const social = [
- {
-  icon: "<FiGithub />",
-  href: "",
- },
-];
 
 // projects
 export const projectsData = [
-  // {
-  //   id: '1',
-  //   image: Project1,
-  //   name: 'project name 1',
-  //   category: 'UI/UX design',
-  // },
-  // {
-  //   id: '2',
-  //   image: Project2,
-  //   name: 'project name 2',
-  //   category: 'web development',
-  // },
-  // {
-  //   id: '3',
-  //   image: Project3,
-  //   name: 'project name 3',
-  //   category: 'UI/UX design',
-  // },
-  // {
-  //   id: '4',
-  //   image: Project4,
-  //   name: 'project name 4',
-  //   category: 'branding',
-  // },
-  // {
-  //   id: '5',
-  //   image: Project5,
-  //   name: 'project name 5',
-  //   category: 'web development',
-  // },
-  // {
-  //   id: '6',
-  //   image: Project6,
-  //   name: 'project name 6',
-  //   category: 'web development',
-  // },
+ //  {
+ //    id: '1',
+ //    image: mamaput,
+ //    name: 'MamaPut',
+ //    category: "under-review",
+ //    stack: "REACT + REDUX"
+ //  },
+ //  {
+ //    id: '2',
+ //    image: mealsearch,
+ //    name: 'Meal Search',
+ //    category: "completed",
+ //    stack: "HTML + JS + API"
+ //  },
+ //  {
+ //    id: '3',
+ //    image: niyifruity,
+ //    name: 'Fuity',
+ //    category: 'under-review',
+ //    stack: "HTML + BOOTSTRAP"
+ //  },
+ //  {
+ //    id: '4',
+ //    image: musica,
+ //    name: 'Musica',
+ //    category: 'current',
+ //    stack:"REACT + FRAMER-MOTION + TAILWIND CSS"
+ //  },
+ //  {
+ //    id: '5',
+ //    image: mytrivia,
+ //    name: 'Trivia app',
+ //    category: 'completed',
+ //   stack: "REACT + API"
+ //  },
+ //  {
+ //    id: '6',
+ //    image: numguesser,
+ //    name: 'Number Guesser',
+ //    category: 'completed',
+ //    stack: "HTML + JAVASCRIPT"
+ //  },
+ //  {
+ //    id: '7',
+ //    image: clothingdemo,
+ //    name: 'My Clothing',
+ //    category: '',
+ //    stack: "REACT + REDUX"
+ //  },
+ //  {
+ //    id: '8',
+ //    image: branchneat,
+ //    name: 'Branch `n` Eat',
+ //    category: 'completed',
+ //    stack: "HTML + CSS + JAVASCRIPT"
+ //  },
+ //  {
+ //    id: '9',
+ //    image: realtypro,
+ //    name: 'Realty Pro',
+ //    category: 'under-review',
+ //    stack: "HTML + CSS"
+ //  },
+ //  {
+ //    id: '10',
+ //    image: budget,
+ //    name: 'Expensify',
+ //    category: 'under-review',
+ //    stack: "REACT + REDUX"
+ //  },
 ];
 
 // projects
@@ -106,13 +119,13 @@ export const projectsNav = [
   name: "all",
  },
  {
-  name: "UI/UX Design",
+  name: "under-review",
  },
  {
-  name: "web development",
+  name: "completed",
  },
  {
-  name: "branding",
+  name: "current",
  },
 ];
 
@@ -137,44 +150,32 @@ export const skills = [
 
 // services
 export const services = [
-  {
-    icon: "<FiLayout />",
-    name: 'Web Design',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
-  },
-  {
-    icon: "<FiSettings />",
-    name: 'Web Development',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
-  },
-  {
-    icon: "<FiPenTool />",
-    name: 'Branding',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
-  },
-  {
-    icon: "<FiTag />",
-    name: 'SEO',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
-  },
+ {
+  // icon: Settings,
+  name: "Web Development",
+  description:
+   "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.",
+ },
+ {
+  // icon: Tag,
+  name: "SEO",
+  description:
+   "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.",
+ },
 ];
 
 // contact
 export const contact = [
-  {
-    icon: "<FiMail />",
-    title: 'Have a question?',
-    subtitle: 'I am here to help you.',
-    description: 'Email me at hello@youremail.com',
-  },
-  {
-    icon: "<FiMapPin />",
-    title: 'Current Location',
-    subtitle: 'Bucharest, Romania',
-    description: 'Serving clients worldwide',
-  },
+ {
+  // icon: Mail,
+  title: "Have a question?",
+  subtitle: "I am here to help you.",
+  description: "Email me at hello@youremail.com",
+ },
+ {
+  // icon: MapPin,
+  title: "Current Location",
+  subtitle: "Bucharest, Romania",
+  description: "Serving clients worldwide",
+ },
 ];

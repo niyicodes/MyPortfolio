@@ -1,23 +1,14 @@
 import React from 'react';
 
 // import icons
-import { social } from '../data';
-
+// import { social } from '../data';
+import {FiGithub}from 'react-icons/fi'
 const Socials = () => {
   return (
     <ul className='flex space-x-6 '>
-      {social.map((item, index) => {
-        return (
-          <li
-            className='flex justify-center items-center text-accent'
-            key={index}
-          >
-            <a className='text-base' href={item.href}>
-              {item.icon}
-            </a>
-          </li>
-        );
-      })}
+      <li><FiGithub /></li>
+      <li><FiGithub /></li>
+      <li><FiGithub /></li>
     </ul>
   );
 };
