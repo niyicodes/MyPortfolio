@@ -1,7 +1,7 @@
 import React from 'react';
 
 // import woman image
-import WomanImg from '../assets/img/banner-woman2.webp';
+// import WomanImg from '../assets/img/banner-woman2.webp';
 
 const Hero = () => {
   return (
@@ -26,9 +26,9 @@ const Hero = () => {
               Work with me
             </button>
           </div>
-          <div className='hidden lg:flex flex-1 justify-end items-end h-full'>
+          {/* <div className='hidden lg:flex flex-1 justify-end items-end h-full'>
             <img src={WomanImg} alt='' />
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

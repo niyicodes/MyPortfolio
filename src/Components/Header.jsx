@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
 
 // import components
-import Logo from '../assets/img/logo.svg';
-import Nav from '../components/Nav';
-import NavMobile from '../components/NavMobile';
+
+import Nav from './Nav';
+import NavMobile from '../Components/NavMobile';
 import Socials from './Socials';
 
 const Header = () => {
@@ -23,9 +23,9 @@ const Header = () => {
     >
       <div className='container mx-auto h-full flex items-center justify-between'>
         {/* logo */}
-        <a href='#'>
+        {/* <a href='#'>
           <img src={Logo} alt='' />
-        </a>
+        </a> */}
         {/* nav */}
         <div className='hidden lg:block'>
           <Nav />

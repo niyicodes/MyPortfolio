@@ -1,11 +1,28 @@
 import React from 'react'
-import './App.css'
+
+import Header from "./Components/Header"
+import Hero from "./Components/Hero"
+import About from "./Components/About"
+import Skills from "./Components/Skills"
+import Portfolio from "./Components/Portfolio"
+import Services from "./Components/Services"
+import Contact from "./Components/Contact"
+import Footer from "./Components/Footer"
+import BackTopBtn from "./Components/BackTopBtn"
+
 
 function App() {
-  
   return (
     <div className="App">
-      <p>About to start</p>
+      <Header />
+      <Hero />
+      <About />
+      <Skills />
+      <Portfolio />
+      <Services />
+      <Contact />
+      <Footer />
+      <BackTopBtn />
     </div>
   )
 }
