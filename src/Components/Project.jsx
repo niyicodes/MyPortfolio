@@ -3,11 +3,17 @@ import React from "react";
 const Project = ({ item }) => {
  return (
   <div key={item.id} className="flex flex-col items-center text-center">
-   <div className="mb-8">
-    <img className="rounded-2xl w-64 h-64 object-fill" src={item.image} alt="" />
+   <div className="mb-4">
+    <img
+     className="rounded-2xl w-60 h-60 object-fill"
+     src={item.image}
+     alt=""
+    />
    </div>
-   <h3 className="text-2xl font-semibold capitalize mb-3">{item.name}</h3>
-   <p className="capitalize text-accent text-sm mb-3">{item.category}</p>
+   <a href={item.link} target="_blank" rel="nofollow">
+    <h3 className="text-2xl font-semibold capitalize mb-1">{item.name}</h3>
+   </a>
+   <p className="capitalize text-accent text-sm mb-1">{item.category}</p>
    <p className="text-base max-w-md">{item.stack}</p>
   </div>
  );

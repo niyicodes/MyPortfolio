@@ -8,7 +8,7 @@ const Skills = () => {
     <section className='bg-tertiary py-12'>
       <div className='container mx-auto'>
         <div
-          className='grid grid-cols-8 md:grid-flow-col'
+          className='flex justify-evenly gap-2'
         >
           {skills.map((skill, index) => {
             return (

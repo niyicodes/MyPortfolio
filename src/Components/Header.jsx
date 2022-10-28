@@ -31,7 +31,7 @@ const Header = () => {
           <Nav />
         </div>
         {/* Socials */}
-        <div className='hidden lg:block'>
+        <div className='hidden md:block'>
           <Socials />
         </div>
         {/* nav mobile*/}

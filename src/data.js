@@ -50,70 +50,80 @@ export const projectsData = [
     image: mamaput,
     name: 'MamaPut',
     category: "under-review",
-    stack: "REACT + REDUX"
+    stack: "REACT + REDUX",
+    link: "https://mamaput.netlify.app/"
   },
   {
     id: '2',
     image: mealsearch,
     name: 'Meal Search',
     category: "completed",
-    stack: "HTML + JS + API"
+    stack: "HTML + JS + API",
+    link: "https://mealssearch.netlify.app"
   },
   {
     id: '3',
     image: niyifruity,
     name: 'Fuity',
     category: 'under-review',
-    stack: "HTML + BOOTSTRAP"
+    stack: "HTML + BOOTSTRAP",
+    link: "https://niyifruity.netlify.app/"
   },
   {
     id: '4',
     image: musica,
     name: 'Musica',
     category: 'current',
-    stack:"REACT + FRAMER-MOTION + TAILWIND CSS"
+    stack:"REACT + FRAMER-MOTION + TAILWIND CSS",
+    link: "https://niyimusica.netlify.app/"
   },
   {
     id: '5',
     image: mytrivia,
     name: 'Trivia app',
     category: 'completed',
-   stack: "REACT + API"
+   stack: "REACT + API",
+   link: "https://mytriviatrial.netlify.app/"
   },
   {
     id: '6',
     image: numguesser,
     name: 'Number Guesser',
     category: 'completed',
-    stack: "HTML + JAVASCRIPT"
+    stack: "HTML + JAVASCRIPT",
+    link: "https://niyi-numguesser.netlify.app/"
   },
   {
     id: '7',
     image: clothingdemo,
     name: 'My Clothing',
     category: '',
-    stack: "REACT + REDUX"
+    stack: "REACT + REDUX",
+    link: "https://clothingdemo.netlify.app/"
   },
   {
     id: '8',
     image: branchneat,
     name: 'Branch `n` Eat',
     category: 'completed',
-    stack: "HTML + CSS + JAVASCRIPT"
+    stack: "HTML + CSS + JAVASCRIPT",
+    link: "https://branch-n-eat.netlify.app/"
   },
   {
     id: '9',
     image: realtypro,
     name: 'Realty Pro',
     category: 'under-review',
-    stack: "HTML + CSS"
+    stack: "HTML + CSS",
+    link: "https://realtypro.netlify.app/"
   },
   {
     id: '10',
     image: budget,
     name: 'Expensify',
     category: 'under-review',
-    stack: "REACT + REDUX"
+    stack: "REACT + REDUX",
+    link: "https://budgetexpensify.netlify.app/"
   },
 ];
 
