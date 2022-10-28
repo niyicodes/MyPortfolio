@@ -13,7 +13,7 @@ const Project = ({ item }) => {
    <a href={item.link} target="_blank" rel="nofollow">
     <h3 className="text-2xl font-semibold capitalize mb-1">{item.name}</h3>
    </a>
-   <p className="capitalize text-accent text-sm mb-1">{item.category}</p>
+   <p className={item.category === 'completed' ?"text-green" : item.category === 'under-review' ?"text-blue": "capitalize text-accent text-sm mb-1"}>{item.category}</p>
    <p className="text-base max-w-md">{item.stack}</p>
   </div>
  );

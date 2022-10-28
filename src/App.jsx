@@ -2,7 +2,6 @@ import React from 'react'
 
 import Header from "./Components/Header"
 import Hero from "./Components/Hero"
-import About from "./Components/About"
 import Skills from "./Components/Skills"
 import Portfolio from "./Components/Portfolio"
 import Services from "./Components/Services"
@@ -16,9 +15,8 @@ function App() {
     <div className="App">
       <Header />
       <Hero />
-      <About />
-      <Skills />
       <Portfolio />
+      <Skills />
       <Services />
       <Contact />
       <Footer />

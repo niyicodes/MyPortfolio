@@ -14,11 +14,12 @@ const Hero = () => {
      <div className="flex-1 flex flex-col items-center lg:items-start">
       <p className="text-lg text-accent text-md mb-[22px]">Hey, I'm Niyi! 👋</p>
       <h1 className="text-4xl leading-[44px] md:text-5xl md:leading-tight lg:text-7xl lg:leading-[1.2] font-bold md:tracking-[-2px]">
-       I Build & Design <br /> Web Interfaces.
+       I Build Interactive & Responsive web interface.
       </h1>
       <p className="pt-4 pb-8 md:pt-6 md:pb-12 max-w-[480px] text-lg text-center lg:text-left">
-       Lorem ipsum dolor sit amet consectetur adipisicing illo ad labore dolor
-       elit.
+       I am a Frontend Developer and I love bringing web designs to life with my
+       knowledge and technical skills of web technologies in accessible and
+       responsive ways for better user experience.
       </p>
       <a
        target="_blank"
