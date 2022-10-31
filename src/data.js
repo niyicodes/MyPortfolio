@@ -19,6 +19,7 @@ import SkillImg5 from "./assets/skills/framer.png";
 import SkillImg6 from "./assets/skills/bootstrap.png";
 import SkillImg7 from "./assets/skills/git.png";
 import SkillImg8 from "./assets/skills/tailwind.png";
+import SkillImg9 from "./assets/skills/redux.png";
 
 // navigation
 export const navigation = [
@@ -170,36 +171,8 @@ export const skills = [
  {
   image: SkillImg8,
  },
-];
-
-// services
-export const services = [
  {
-  // icon: Settings,
-  name: "Web Development",
-  description:
-   "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.",
- },
- {
-  // icon: Tag,
-  name: "SEO",
-  description:
-   "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.",
+  image: SkillImg9,
  },
 ];
 
-// contact
-export const contact = [
- {
-  // icon: Mail,
-  title: "Have a question?",
-  subtitle: "I am here to help you.",
-  description: "Email me at hello@youremail.com",
- },
- {
-  // icon: MapPin,
-  title: "Current Location",
-  subtitle: "Bucharest, Romania",
-  description: "Serving clients worldwide",
- },
-];
