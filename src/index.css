@@ -42,4 +42,18 @@
     @apply text-accent;
     
   }
+  .project{
+    @apply flex flex-col items-center text-center
+  }
+
+  .project:hover{
+    transform: scale(1.1);
+    cursor:pointer;
+    transition:
+  }
+
+  .project:hover span{
+    display: block;
+    cursor: pointer;
+  }
 }
