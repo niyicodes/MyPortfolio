@@ -27,10 +27,10 @@ export const navigation = [
   name: "home",
   href: "home",
  },
- {
-  name: "about",
-  href: "about",
- },
+ // {
+ //  name: "about",
+ //  href: "about",
+ // },
  {
   name: "portfolio",
   href: "portfolio",

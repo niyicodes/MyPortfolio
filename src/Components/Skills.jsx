@@ -8,7 +8,7 @@ const Skills = () => {
     <section className='bg-tertiary py-12'>
       <div className='container mx-auto'>
         <div
-          className='grid grid-cols-5 gap-4'
+          className='grid grid-cols-3 lg:grid-cols-4 gap-4'
         >
           {skills.map((skill, index) => {
             return (
