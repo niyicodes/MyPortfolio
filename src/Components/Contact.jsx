@@ -17,19 +17,22 @@ const Contact = () => {
      </p>
     </div>
     <div className="flex flex-col lg:gap-x-8 lg:flex-row">
-     <div className="flex flex-1 flex-col items-start space-y-8 mb-12 lg:mb-0 lg:pt-2">
-      <ContactMe
-       icon={mail}
-       title="Have a question?"
-       subtitle="I am here to help you."
-       description="officiallyomoniyi@gmail.com"
-      />
-
-      <ContactMe
-       icon={location}
-       title="Current Location"
-       subtitle="Lagos, Nigeria"
-      />
+     <div className="flex flex-row gap-6">
+      <div className="div1">
+       <ContactMe
+        icon={mail}
+        title="Have a question?"
+        subtitle="I am here to help you."
+        description="officiallyomoniyi@gmail.com"
+       />
+      </div>
+      <div className="div2">
+       <ContactMe
+        icon={location}
+        title="Current Location"
+        subtitle="Lagos, Nigeria"
+       />
+      </div>
      </div>
     </div>
    </div>

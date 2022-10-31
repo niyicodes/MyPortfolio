@@ -5,7 +5,7 @@ const Project = ({ item }) => {
   <div key={item.id} className="project">
    <div className="mb-4">
     <img
-     className="rounded-2xl w-60 h-60 object-fill"
+     className="rounded-2xl w-80 h-52 object-fill"
      src={item.image}
      alt=""
     />
