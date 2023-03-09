@@ -4,11 +4,12 @@ import mealsearch from "./assets/projects/mealsearch.png";
 import niyifruity from "./assets/projects/niyifruity.png";
 import musica from "./assets/projects/musica.png";
 import mytrivia from "./assets/projects/mytrivia.png";
-import numguesser from "./assets/projects/numguesser.png";
 import clothingdemo from "./assets/projects/clothingdemo.png";
 import branchneat from "./assets/projects/branchneat.png";
 import realtypro from "./assets/projects/realtypro.png";
-import budget from "./assets/projects/budget.png";
+import piggy from "./assets/projects/piggyvest.jpg";
+import disney from "./assets/projects/disneyclone.jpg";
+import home from "./assets/projects/homerental.jpg";
 
 // skills images
 import SkillImg1 from "./assets/skills/html5.png";
@@ -44,6 +45,30 @@ export const navigation = [
 // projects
 export const projectsData = [
  {
+  id: "11",
+  image: piggy,
+  name: "Piggyvest(Clone)",
+  category: "completed",
+  stack: "REACT + ANIMATE.CSS",
+  link: "https://niyipiggyvestclone.netlify.app/",
+ },
+ {
+  id: "10",
+  image: disney,
+  name: "Disney(Clone)",
+  category: "completed",
+  stack: "REACT",
+  link: "https://niyidisneyclone.netlify.app/",
+ },
+ {
+  id: "12",
+  image: home,
+  name: "Home-Rentals",
+  category: "completed",
+  stack: "REACT + FRAMER + PAGINATE",
+  link: "https://home-renta.netlify.app/",
+ },
+ {
   id: "1",
   image: mamaput,
   name: "MamaPut",
@@ -71,7 +96,7 @@ export const projectsData = [
   id: "4",
   image: musica,
   name: "Musica",
-  category: "current",
+  category: "completed",
   stack: "REACT + FRAMER-MOTION + TAILWIND CSS",
   link: "https://niyimusica.netlify.app/",
  },
@@ -82,14 +107,6 @@ export const projectsData = [
   category: "completed",
   stack: "REACT + API",
   link: "https://mytriviatrial.netlify.app/",
- },
- {
-  id: "6",
-  image: numguesser,
-  name: "Number Guesser",
-  category: "completed",
-  stack: "HTML + JAVASCRIPT",
-  link: "https://niyi-numguesser.netlify.app/",
  },
  {
   id: "7",
@@ -114,14 +131,6 @@ export const projectsData = [
   category: "under-review",
   stack: "HTML + CSS",
   link: "https://realtypro.netlify.app/",
- },
- {
-  id: "10",
-  image: budget,
-  name: "Expensify",
-  category: "under-review",
-  stack: "REACT + REDUX",
-  link: "https://budgetexpensify.netlify.app/",
  },
 ];
 
