@@ -10,6 +10,7 @@ import realtypro from "./assets/projects/realtypro.png";
 import piggy from "./assets/projects/piggyvest.jpg";
 import disney from "./assets/projects/disneyclone.jpg";
 import home from "./assets/projects/homerental.jpg";
+import recipee from "./assets/projects/recipee.jpg";
 
 // skills images
 import SkillImg1 from "./assets/skills/html5.png";
@@ -75,6 +76,14 @@ export const projectsData = [
   category: "under-review",
   stack: "REACT + REDUX",
   link: "https://mamaput.netlify.app/",
+ },
+ {
+  id: "13",
+  image: recipee,
+  name: "Recipee",
+  category: "completed",
+  stack: "REACT + API + SPLIDE",
+  link: "https://reciipeess.netlify.app/",
  },
  {
   id: "2",
