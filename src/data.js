@@ -8,6 +8,7 @@ import clothingdemo from "./assets/projects/clothingdemo.png";
 import branchneat from "./assets/projects/branchneat.png";
 import realtypro from "./assets/projects/realtypro.png";
 import piggy from "./assets/projects/piggyvest.jpg";
+import products from "./assets/projects/products.png";
 import disney from "./assets/projects/disneyclone.jpg";
 import home from "./assets/projects/homerental.jpg";
 import recipee from "./assets/projects/recipee.jpg";
@@ -22,6 +23,7 @@ import SkillImg6 from "./assets/skills/bootstrap.png";
 import SkillImg7 from "./assets/skills/git.png";
 import SkillImg8 from "./assets/skills/tailwind.png";
 import SkillImg9 from "./assets/skills/redux.png";
+import SkillImg10 from "./assets/skills/typescript.png";
 
 // navigation
 export const navigation = [
@@ -45,6 +47,14 @@ export const navigation = [
 
 // projects
 export const projectsData = [
+ {
+  id: "14",
+  image: products,
+  name: "Products",
+  category: "completed",
+  stack: "REACT + TAILWIND + REDUX",
+  link: "https://niyi-reduxproducts.netlify.app/",
+ },
  {
   id: "11",
   image: piggy,
@@ -196,6 +206,10 @@ export const skills = [
  {
   image: SkillImg9,
   name: "REDUX"
+ },
+ {
+  image: SkillImg10,
+  name: "TYPESCRIPT"
  },
 ];
 
