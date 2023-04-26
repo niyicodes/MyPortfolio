@@ -12,7 +12,7 @@ import products from "./assets/projects/products.png";
 import disney from "./assets/projects/disneyclone.jpg";
 import home from "./assets/projects/homerental.jpg";
 import recipee from "./assets/projects/recipee.jpg";
-import quizerrs from "./assets/projects/quizerrs.jpg";
+import quizer from "./assets/projects/quizerrs.jpg";
 
 // skills images
 import SkillImg1 from "./assets/skills/html5.png";
@@ -50,7 +50,7 @@ export const navigation = [
 export const projectsData = [
  {
   id: "15",
-  image: quizerrs,
+  image: quizer,
   name: "Quizerrs",
   category: "completed",
   stack: "REACT + TAILWIND + REDUX",
