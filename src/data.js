@@ -12,7 +12,7 @@ import products from "./assets/projects/products.png";
 import disney from "./assets/projects/disneyclone.jpg";
 import home from "./assets/projects/homerental.jpg";
 import recipee from "./assets/projects/recipee.jpg";
-import quizer from "./assets/projects/quizerrs.jpg";
+import quizer from "./assets/projects/quizer.jpg";
 
 // skills images
 import SkillImg1 from "./assets/skills/html5.png";
@@ -182,43 +182,42 @@ export const projectsNav = [
 export const skills = [
  {
   image: SkillImg1,
-  name: "HTML5"
+  name: "HTML5",
  },
  {
   image: SkillImg2,
-  name: "CSS3"
+  name: "CSS3",
  },
  {
   image: SkillImg3,
-  name: "JAVASCRIPT"
+  name: "JAVASCRIPT",
  },
  {
   image: SkillImg4,
-  name: "REACT.js"
+  name: "REACT.js",
  },
  {
   image: SkillImg5,
-  name: "FRAMER MOTION"
+  name: "FRAMER MOTION",
  },
  {
   image: SkillImg6,
-  name: "BOOTSTRAP"
+  name: "BOOTSTRAP",
  },
  {
   image: SkillImg7,
-  name: "GITHUB"
+  name: "GITHUB",
  },
  {
   image: SkillImg8,
-  name: "TAILWIND CSS"
+  name: "TAILWIND CSS",
  },
  {
   image: SkillImg9,
-  name: "REDUX"
+  name: "REDUX",
  },
  {
   image: SkillImg10,
-  name: "TYPESCRIPT"
+  name: "TYPESCRIPT",
  },
 ];
-
