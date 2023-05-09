@@ -13,6 +13,7 @@ import disney from "./assets/projects/disneyclone.jpg";
 import home from "./assets/projects/homerental.jpg";
 import recipee from "./assets/projects/recipee.jpg";
 import quizer from "./assets/projects/quizer.jpg";
+import showbox from "./assets/projects/showbox.png";
 
 // skills images
 import SkillImg1 from "./assets/skills/html5.png";
@@ -25,6 +26,7 @@ import SkillImg7 from "./assets/skills/git.png";
 import SkillImg8 from "./assets/skills/tailwind.png";
 import SkillImg9 from "./assets/skills/redux.png";
 import SkillImg10 from "./assets/skills/typescript.png";
+import SkillImg11 from "./assets/skills/next.png";
 
 // navigation
 export const navigation = [
@@ -48,6 +50,14 @@ export const navigation = [
 
 // projects
 export const projectsData = [
+ {
+  id: "16",
+  image: showbox,
+  name: "ShowBox",
+  category: "completed",
+  stack: "REACT + TAILWIND + API",
+  link: "https://show-box.vercel.app/",
+ },
  {
   id: "15",
   image: quizer,
@@ -219,5 +229,9 @@ export const skills = [
  {
   image: SkillImg10,
   name: "TYPESCRIPT",
+ },
+ {
+  image: SkillImg11,
+  name: "NEXT.js",
  },
 ];
