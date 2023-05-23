@@ -55,7 +55,7 @@ export const projectsData = [
   image: showbox,
   name: "ShowBox",
   category: "completed",
-  stack: "REACT + TAILWIND + API",
+  stack: "NEXT.js + TAILWIND + API",
   link: "https://show-box.vercel.app/",
  },
  {
