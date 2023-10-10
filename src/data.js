@@ -14,6 +14,7 @@ import home from "./assets/projects/homerental.jpg";
 import recipee from "./assets/projects/recipee.jpg";
 import quizer from "./assets/projects/quizer.jpg";
 import showbox from "./assets/projects/showbox.png";
+import exclusive from "./assets/projects/exclusive.png";
 
 // skills images
 import SkillImg1 from "./assets/skills/html5.png";
@@ -50,6 +51,14 @@ export const navigation = [
 
 // projects
 export const projectsData = [
+ {
+  id: "17",
+  image: exclusive,
+  name: "Exclusice Store",
+  category: "Ongoing",
+  stack: "NEXT.js + TAILWIND + API",
+  link: "https://exclusivestore.vercel.app/",
+ },
  {
   id: "16",
   image: showbox,

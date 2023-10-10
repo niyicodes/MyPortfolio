@@ -24,7 +24,7 @@ const Hero = () => {
       <a
        target="_blank"
        className="btn btn-md bg-accent hover:bg-secondary-hover md:btn-lg transition-all"
-       href="https://drive.google.com/file/d/111LhPbKZVxjUQdaf6JcfMl2vTvACtmzn/view?usp=share_link"
+       href="https://drive.google.com/file/d/1vw1gdZ_cg0m1u7ZJQY5Zzw3-gkPwEJr5/view?usp=sharing"
        download
       >
        Download CV
